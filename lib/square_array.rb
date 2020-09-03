@@ -1,6 +1,7 @@
 def square_array(numbers)
+  square_array = []
   numbers.length.times do |index|
-    numbers[index].push(numbers[index] * numbers[index])
+    square_array.push(numbers[index] * numbers[index])
 end
-p numbers
+p square_array
 end 
